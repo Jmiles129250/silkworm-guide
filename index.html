@@ -20,9 +20,9 @@ header p { color: #388e3c; font-size: 1.1em; }
 .dialog { background: #fff3e0; border-radius: 10px; padding: 12px 15px; margin: 10px 0; border-left: 4px solid #ff9800; font-style: italic; }
 .dialog.speaker { font-weight: bold; font-style: normal; }
 .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; margin: 15px 0; }
-.info-item { background: #e3f2fd; padding: 12px; border-radius: 10px; text-align: center; border: 2px solid #64b5f6; }
+.info-item { background: #e3f2fd; padding: 12px; border-radius: 10px; text-align: center; border: 2px solid #64b5f6; min-width: 90px; }
 .info-item label { display: block; font-weight: bold; color: #1565c0; font-size: 0.9em; }
-.info-item span { display: block; font-size: 1.3em; color: #1976d2; margin-top: 5px; }
+.info-item span { display: block; font-size: 1.3em; color: #1976d2; margin-top: 5px; white-space: nowrap; }
 .alert-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
 .alert { padding: 8px 12px; border-radius: 8px; font-weight: bold; font-size: 0.85em; }
 .alert.high { background: #ffcdd2; color: #c62828; border: 2px solid #ef5350; }
@@ -190,8 +190,8 @@ footer { text-align: center; padding: 30px; color: #795548; font-size: 0.9em; }
 <div class="scene-img">
 <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
   <rect x="20" y="30" width="160" height="70" fill="#fff3e0" stroke="#ffb74d" stroke-width="3" rx="5"/>
-  <text x="50" y="55" font-size="20" fill="#ff9800">🌡️ 25-28℃</text>
-  <text x="120" y="55" font-size="20" fill="#2196f3">💧 60-70%</text>
+  <text x="50" y="50" font-size="18" fill="#ff9800">🌡️ 25-28℃</text>
+  <text x="120" y="50" font-size="18" fill="#2196f3">💧 60-70%</text>
   <text x="70" y="85" font-size="12" fill="#795548">舒适的家</text>
 </svg>
 </div>
